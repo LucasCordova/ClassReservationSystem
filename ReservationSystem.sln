@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.DataAccess", "ReservationSystem.DataAccess\ReservationSystem.DataAccess.csproj", "{0D33DCA9-9B49-470B-9120-69056989388C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.Core", "ReservationSystem.Core\ReservationSystem.Core.csproj", "{3B89E49E-5F66-49E2-B3E9-8BA7CBAA85EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.Web", "ReservationSystem.Web\ReservationSystem.Web.csproj", "{46DCE03B-A0AF-4845-9E4A-DA7766202731}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2CDBE290-BB99-4ACE-9EC4-F9453B12451A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.DataAccess.Tests", "Test\ReservationSystem.DataAccess.Tests\ReservationSystem.DataAccess.Tests.csproj", "{790B0EEE-AE0E-4B9A-9B0D-F5FFCBB97056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.Core.Tests", "Test\ReservationSystem.Core.Tests\ReservationSystem.Core.Tests.csproj", "{11B28120-7D5F-4659-94A1-DB89DA41A1D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.Web.Tests", "Test\ReservationSystem.Web.Tests\ReservationSystem.Web.Tests.csproj", "{5C680FF4-EDE4-42CD-A051-CE54B7AB762E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D33DCA9-9B49-470B-9120-69056989388C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D33DCA9-9B49-470B-9120-69056989388C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D33DCA9-9B49-470B-9120-69056989388C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D33DCA9-9B49-470B-9120-69056989388C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B89E49E-5F66-49E2-B3E9-8BA7CBAA85EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B89E49E-5F66-49E2-B3E9-8BA7CBAA85EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B89E49E-5F66-49E2-B3E9-8BA7CBAA85EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B89E49E-5F66-49E2-B3E9-8BA7CBAA85EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DCE03B-A0AF-4845-9E4A-DA7766202731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DCE03B-A0AF-4845-9E4A-DA7766202731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DCE03B-A0AF-4845-9E4A-DA7766202731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DCE03B-A0AF-4845-9E4A-DA7766202731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790B0EEE-AE0E-4B9A-9B0D-F5FFCBB97056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790B0EEE-AE0E-4B9A-9B0D-F5FFCBB97056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790B0EEE-AE0E-4B9A-9B0D-F5FFCBB97056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790B0EEE-AE0E-4B9A-9B0D-F5FFCBB97056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B28120-7D5F-4659-94A1-DB89DA41A1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B28120-7D5F-4659-94A1-DB89DA41A1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B28120-7D5F-4659-94A1-DB89DA41A1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B28120-7D5F-4659-94A1-DB89DA41A1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C680FF4-EDE4-42CD-A051-CE54B7AB762E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C680FF4-EDE4-42CD-A051-CE54B7AB762E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C680FF4-EDE4-42CD-A051-CE54B7AB762E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C680FF4-EDE4-42CD-A051-CE54B7AB762E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{790B0EEE-AE0E-4B9A-9B0D-F5FFCBB97056} = {2CDBE290-BB99-4ACE-9EC4-F9453B12451A}
+		{11B28120-7D5F-4659-94A1-DB89DA41A1D9} = {2CDBE290-BB99-4ACE-9EC4-F9453B12451A}
+		{5C680FF4-EDE4-42CD-A051-CE54B7AB762E} = {2CDBE290-BB99-4ACE-9EC4-F9453B12451A}
+	EndGlobalSection
+EndGlobal
